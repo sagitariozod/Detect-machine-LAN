@@ -6,3 +6,7 @@ Updated to work in Python 3.
 Added detection with scapy.
 
 Gtk notification icon: Incomplete.
+
+# Usage example:
+
+sudo python3 ./DetectMachineLan.py -r 192.168.0.0/24 --log -u myuser@gmail.com --pwd mypassword -s smtp.gmail.com -p 587 --et=emailto@gmail.com
